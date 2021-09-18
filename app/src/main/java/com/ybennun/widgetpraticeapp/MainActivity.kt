@@ -2,6 +2,7 @@ package com.ybennun.widgetpraticeapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.SeekBar
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -23,5 +24,13 @@ class MainActivity : AppCompatActivity() {
             override fun onStopTrackingTouch(seekBar: SeekBar?) {
             }
         })
+
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.list_of_units,
+            android.R.layout.simple_list_item_1
+        ).also { arrayAdapter: ArrayAdapter<CharSequence> ->
+            spinner.adapter = arrayAdapter
+        }
     }
 }
