@@ -6,8 +6,8 @@
     <string name="str_age_tools">Age : 30</string>
     <string name="str_weight">Weight :</string>
     <string name="str_hint_weight">weight</string>
-    <string name="str_man">man</string>
-    <string name="str_woman">woman</string>
+    <string name="str_male">male</string>
+    <string name="str_female">female</string>
     <string name="str_terms_and_conditions">Accept Terms and Conditions</string>
     <string name="str_terms_text">What’s covered in these terms We know it’s tempting to skip these
         Terms of Service, but it’s important to establish what you can expect from us as you use

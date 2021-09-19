@@ -65,5 +65,24 @@
 
     </LinearLayout>
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_female"
+            android:layout_margin="@dimen/margin_eight"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_male"
+            android:layout_margin="@dimen/margin_eight"/>
+
+    </RadioGroup>
+
 
 </LinearLayout>
